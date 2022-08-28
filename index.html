@@ -24,13 +24,16 @@
           <option value="8">8</option>
         </select>
       </div>
-      <ul id="results">
-        <li>0</li>
-        <li>0</li>
-        <li>0</li>
-        <li>0</li>
-      </ul>
-      <p id="clear">clear results</p>
+
+      
+      <ul id="results"> </ul>
+        <template>
+        <li>s</li>
+      </template>
+     
+
+    </template>
+      <div id="clear" onclick="clearArr()">clear results</div>
 
       <input type="text" name="firstnumber" id="firstnumber" />
       <select name="operator" id="operator">
@@ -40,7 +43,7 @@
         <option value="div">/</option>
       </select>
       <input type="text" name="secondnumber" id="secondnumber" />
-      <button id="calculate">Calculate</button>
+      <button class="calc" id="calc">Calculate</button>
     </div>
 
     <script src="script.js"></script>
